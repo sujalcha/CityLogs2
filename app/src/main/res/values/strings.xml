@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">CityLogs</string>
+
+
+
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Repeat Password</string>
+
+
+    <!--define string for fragment home-->
+    <string name="city101">Perth</string>
+    <string name="city102">Brisbane</string>
+    <string name="city103">Sydney</string>
+    <string name="city104">Melbourne</string>
+    <string name="city105">Adelaide</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="home">Home</string>
+
+    <!--define string for fragment data entry-->
+    <string name="contact_id">Contact</string>
+    <string name="hint_contact">Phone Number</string>
+    <string name="invoice_id">Invoice Number</string>
+    <string name="hint_invoice">Invoice Number</string>
+    <string name="time_id">Time</string>
+    <string name="destination_id">Destination</string>
+    <string name="destination_hint">Destination</string>
+
+    <string name="save_log_entry">Save Log Entry</string>
+    <string name="show_log_entries">Show Log Entries</string>
+
+    <!--define string for show log fragment-->
+    <string name="back_button">Return to</string>
+    <string name="return_to">Return to</string>
+    <string name="Perth">Perth </string>
+    <string name="Brisbane">Brisbane </string>
+    <string name="Sydney">Sydney </string>
+    <string name="Melbourne">Melbourne </string>
+    <string name="Adelaide">Adelaide </string>
+
+    <!--define string array for spinner-->
+    <string-array name="cities">
+        <item></item>
+        <item>Perth</item>
+        <item>Brisbane</item>
+        <item>Sydney</item>
+        <item>Melbourne</item>
+        <item>Adelaide</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="apps.cl.CityLogs.MainActivity">
+    <item app:showAsAction="never"
+        android:id="@+id/profile"
+        android:orderInCategory="100"
+        android:title="Profile"
+        />
+
+    <item
+        android:id="@+id/save"
+        android:orderInCategory="100"
+        android:title="Save Entries"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/send"
+        android:orderInCategory="100"
+        android:title="Send all entries"
+        app:showAsAction="never" />
+</menu>

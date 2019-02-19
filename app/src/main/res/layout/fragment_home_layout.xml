@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.cl.CityLogs.fragments.Home_Fragment"
+    tools:showIn="@layout/activity_main" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upperverticalLayout"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/city1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:background="#424fb7"
+            android:text="@string/Perth" />
+
+        <Button
+            android:id="@+id/city2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#424fb7"
+            android:text="@string/Brisbane" />
+
+        <Button
+            android:id="@+id/city3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#424fb7"
+            android:text="@string/Sydney" />
+
+        <Button
+            android:id="@+id/city4"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="#424fb7"
+            android:text="@string/Melbourne" />
+
+        <Button
+            android:id="@+id/city5"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#424fb7"
+            android:text="@string/Adelaide" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
