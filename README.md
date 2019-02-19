@@ -4,6 +4,8 @@ The developed application “CityLogs”, is a mobile application that records t
 
 Home page: Home page is the first fragment layout page that appears when application starts. Here, the users can choose the staring city. User can choose any city button and this leads to the respective individual city fragment layout.
 
-Landing page: This fragment appears when the user clicks on any of the city buttons in the home fragment layout. Here user can record the date and time, their contact and invoice number and the final destination values. They can also save log, view log, change the City etc.   Process of log Entry The user has to enter every value only then the log data could be saved. Otherwise the application will show a validation error message.
+Landing page: This fragment appears when the user clicks on any of the city buttons in the home fragment layout. Here user can record the date and time, their contact and invoice number and the final destination values. They can also save log, view log, change the City etc.   
+
+Process of log Entry The user has to enter every value only then the log data could be saved. Otherwise the application will show a validation error message.
 
 Saved Log: This is how the citylist layout is displayed when we click the show log button in the city fragment layout. The data that are saved with the save entries menu function in the database are extracted and showed in this city list fragment.
